@@ -38,7 +38,6 @@ router.post('/notes', (req, res) => {
   });
 });
 
-
 // DELETE /api/notes/:id - Delete the note with the specified ID
 router.delete('/notes/:id', (req, res) => {
   const noteId = req.params.id;

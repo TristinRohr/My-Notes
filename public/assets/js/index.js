@@ -11,7 +11,7 @@ if (window.location.pathname === '/notes') {
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
   clearFormBtn = document.querySelector('.clear-form');
-  noteList = document.querySelector('.list-container .list-group');
+  noteList = document.querySelector('.list-group');
 }
 
 // Show an element
