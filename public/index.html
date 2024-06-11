@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Note Taker</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
-  <nav class="navbar bg-info">
-    <a class="navbar-brand text-light p-3" href="/">Note Taker
-    </a>
-  </nav>
-  <div class="container">
-    <div style="margin-top: 80px;" class="text-center p-5 mb-4 bg-light">
-      <h1 class="display-4">Note Taker <span role="img" aria-label="Memo">📝</span></h1>
-      <h4 class="mt-4">Take notes with Express</h4>
-      <a class="btn btn-primary btn-lg mt-4" href="/notes" role="button">Get Started</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="list-container">
+                    <h2>Notes</h2>
+                    <ul class="list-group">
+                        <!-- Note list items will go here -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="note-form">
+                    <h2>Note Title</h2>
+                    <input class="note-title" placeholder="Enter note title" />
+                    <textarea class="note-textarea" placeholder="Enter note text"></textarea>
+                    <button class="save-note">Save Note</button>
+                    <button class="new-note">New Note</button>
+                    <button class="clear-form">Clear Form</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <script src="/assets/js/index.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
-
 </html>

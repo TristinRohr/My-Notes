@@ -20,7 +20,7 @@ To install and run this application locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/note-taker.git
+   git clone https://github.com/TristinRohr/My-Notes
    cd note-taker
    ```
 2. **Install dependencies:**
