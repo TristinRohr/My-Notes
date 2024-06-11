@@ -7,24 +7,29 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <div class="list-container">
-                    <h2>Notes</h2>
-                    <ul class="list-group">
-                        <!-- Note list items will go here -->
-                    </ul>
+    <div class="wrapper">
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">Note Taker</a>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="list-container">
+                        <h2>Notes</h2>
+                        <ul class="list-group">
+                            <!-- Note list items will go here -->
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-9">
-                <div class="note-form">
-                    <h2>Note Title</h2>
-                    <input class="note-title" placeholder="Enter note title" />
-                    <textarea class="note-textarea" placeholder="Enter note text"></textarea>
-                    <button class="save-note">Save Note</button>
-                    <button class="new-note">New Note</button>
-                    <button class="clear-form">Clear Form</button>
+                <div class="col-9">
+                    <div class="note-container">
+                        <h2>Note Title</h2>
+                        <input class="note-title" placeholder="Enter note title" />
+                        <textarea class="note-textarea" placeholder="Enter note text"></textarea>
+                        <button class="save-note">Save Note</button>
+                        <button class="new-note">New Note</button>
+                        <button class="clear-form">Clear Form</button>
+                    </div>
                 </div>
             </div>
         </div>
